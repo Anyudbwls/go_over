@@ -1,0 +1,35 @@
+/* 기본 스타일 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: #fff;
+}
+
+header,
+main {
+  margin: 0 auto;
+  width: 940px;
+}
+header {
+  background-color: pink;
+  position: relative;
+}
+h1 {
+  background-color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 300px;
+}
+
+.menu {
+  display: flex;
+}
+.sub-menu {
+  display: none;
+}
